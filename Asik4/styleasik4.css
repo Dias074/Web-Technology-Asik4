@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c; /* Темный фон */
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4; /* Светлый текст для контраста */
+    background-image: url('https://i.ytimg.com/vi/vQpOSNalW-g/maxresdefault.jpg'); /* Добавь свою картинку для фона */
+    background-size: cover; /* Чтобы картинка покрывала весь экран */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для шапки */
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    color: #f39c12; /* Яркий оранжевый для логотипа */
+}
+
+.navbar-nav .nav-link {
+    color: #ecf0f1; /* Светлый текст для ссылок */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c; /* Красный при наведении */
+}
+
+/* Section Styles */
+section {
+    margin-top: 40px;
+    color: #ecf0f1; /* Светлый текст */
+}
+
+/* Card styles */
+.card {
+    background-color: rgba(44, 62, 80, 0.9); /* Полупрозрачный темно-синий */
+    border: none;
+    color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Позволяет изображению заполнять контейнер без искажения */
+    object-position: center; /* Центрирует изображение */
+    border-radius: 8px; /* Скругленные углы для картинок */
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #f39c12; /* Оранжевый для заголовков карточек */
+}
+
+.card-text {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #e74c3c; /* Красная кнопка */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px; /* Скругленные углы */
+}
+
+button:hover {
+    background-color: #c0392b; /* Темный красный при наведении */
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(44, 62, 80, 0.9); /* Полупрозрачный темно-синий для футера */
+    padding: 20px;
+    color: #ecf0f1; /* Светлый текст в футере */
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Contact Section styles */
+#contact a {
+    color: #f39c12; /* Оранжевый для ссылок */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .card-title {
+        font-size: 1.2em;
+    }
+
+    /* Обновление стилей изображений для мобильных устройств */
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-img-top {
+        height: 180px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.1em;
+    }
+
+    /* Увеличение размера текста для мобильных устройств */
+    .card-text {
+        font-size: 1.2em;
+    }
+}
+
+/* Custom breakpoints for responsive layout */
+@media (max-width: 992px) {
+    .col-md-4 {
+        width: 50%;  /* Два столбца вместо 3 */
+    }
+}
+
+/* Added specific style for images */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Убедитесь, что изображение не будет обрезано */
+    border-radius: 8px; /* Скругленные углы */
+}
+
+
+img {
+  width: 45px;
+  height: 40px;
+}
